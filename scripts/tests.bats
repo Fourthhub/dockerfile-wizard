@@ -1,4 +1,4 @@
-#!/usr/bin/env bats
+mmake#!/usr/bin/env bats
 
 @test "linux version" {
   lsb_release -a | grep "$(awk -F'_' '{print tolower($2)}' <<< $LINUX_VERSION)"
