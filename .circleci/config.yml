@@ -6,7 +6,7 @@ image_config: &image_config
 
   IMAGE_NAME: Fourthhub-Java8Py3
 
-  IMAGE_TAG: Fourthhub-Java8Py3
+  IMAGE_TAG: fh/java-img
 
   # NOTE: if you're modifying this config.yml file manually
   # rather than using the included setup script,
